@@ -5,6 +5,7 @@
 This repository contains an implementation of $\sigma$-Reparam, which is proposed in [Stabilizing Transformer Training by Preventing Attention Entropy Collapse](https://proceedings.mlr.press/v202/zhai23a/zhai23a.pdf) (Zhai et al. 2023) at ICML 2023.
 
 Compared to spectral norm, $\sigma$-Reparam introduces a dimensionless learnable variable $\gamma$ to force the updates of spectral norm to be dimensionality independent.
+
 $$
 \hat{W} = \frac{\gamma}{\sigma(W)}W
 $$
